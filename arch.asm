@@ -159,7 +159,7 @@ INPUT_HEX ENDP
 OUTPUT_BINARY PROC
     MOV CL, 0CH
     out_bin:
-        PUSH BX ;save ko lang BX para sure
+        PUSH BX 
         MOV AH, 02H
         MOV CL, 16
         shift:
